@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* main*/
+.mainDestino{
+    margin: 50px;
+}
+/* Todas as seções */
+.secaoDestino{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Seções de cards e dos destinos  */
+.card-pais{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+.bt{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#botao{
+    width: 80%;
+    background-color: #191970e0;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img-lugares{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.foto{
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+}
+.conteudo{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+}
+/* titulo mais barra de pesquisa com botão */
+.titleDestino{
+    color: #013b77;
+    font-size: 1rem;
+    font-weight: 400px;
+    font-family: 'roboto';
+    text-align: center;
+}
+.barraDeNavegacao{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.pesquisaDestino{
+    display: flex;
+    height: 50px;
+}
+#botao-pesquisa{
+    background-color: #191970e0;
+    width: 40%;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,85 @@
+/* main */
+.mainContato{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10px 70px 10px;
+}
+/* seção */
+.sectionContato{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 0 3px;
+    background-color: #f8f9fa;
+}
+/* caixa contem todo o conteúdo do feedback*/
+.boxContato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    padding: 10px;
+}
+/* titulo */
+.titleContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #013b77;
+}
+/* dropdown do */
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+#feedback{
+    width: 210px;
+}
+.cx-texto{
+    margin:0px;
+    padding: 0px;
+}
+/* botão */
+.btContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#botaoContato{
+    background-color: #191970e0;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+@media (max-width:480px) {  
+    /* box */
+    .boxContato{
+    width: 200px;
+    padding: 10px;
+    } 
+    /* feedback */
+    #feedback{
+        width: 180px;
+    }
+    /* seção */
+    .sectionContato{
+        width: 800px;
+        height: 600px;
+    }
+    /* h1 do titlo */
+    .titleContato > h1{
+        font-size: 1.5rem;
+    }
+}

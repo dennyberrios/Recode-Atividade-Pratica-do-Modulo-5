@@ -1,0 +1,18 @@
+.sobre-nos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+article{
+    margin: 60px;
+    width: 80%;
+}
+article > p{
+    font-size: 'Nunito', arial;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+article > header > h2{
+    color: #013b77;
+}

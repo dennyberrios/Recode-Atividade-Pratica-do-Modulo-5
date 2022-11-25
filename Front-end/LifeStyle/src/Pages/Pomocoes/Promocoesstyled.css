@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&display=swap');
+
+/* Todas as seções */
+.mocoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #013b77;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+}
+.imgPromo{
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px;
+}
+.item1{
+    width: 340px;
+    padding: 10px;
+}
+.item1 > div > h4{
+    font-size: 1.2rem;
+}
+.valor{
+    margin-top: 20px;
+}
+.valor > p{
+    margin:0px;
+}
+/* butão pai */
+.bt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+/* butão filho */
+#botao{
+    background-color: #191970e0;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+@media( max-width: 450px){
+    /* imagens das promoções */
+    .imgPromo{
+        width: 100%;
+    }
+}

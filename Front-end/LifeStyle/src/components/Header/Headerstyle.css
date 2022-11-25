@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html,body{
+    font-family: 'Poppins';
+    color:#1c1c1c;
+    margin: 0px;
+    color:#000000;
+}
+h1, h2{
+    font-family: 'Nunito', sans-serif;
+}
+/* Cabeçalho/Barra de navegação */
+#navega{
+    display:flex;
+    justify-content: space-around;
+    background-color: #191970;
+}
+#topo{
+    display:flex;
+    margin:0px;
+    margin-right: 10px;
+}
+.item{
+    padding: 5px;
+    height: 40px;
+}
+.item > a{
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+.item > a:hover{
+    transition: 0.1s;
+    border-bottom: solid 2px white;
+}
+#cadastre-se{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffffe0;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #171c8a;
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+#cadastre-se:active{
+    transition: 0.1s;
+    background-color: rgb(179, 179, 179);
+}
+/* Logo */
+.logo{
+    margin: 10px 0px 10px 0px;
+    height: 60px;
+}
+
+.boxNav {
+    background-color: #cdcdf5;
+}
+
+.link {
+    color: #171c8a;
+    font-weight: bold;
+}

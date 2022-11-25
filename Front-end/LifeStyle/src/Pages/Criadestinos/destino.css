@@ -1,0 +1,18 @@
+.s {
+  max-width: 50%;
+ }
+
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+
+
+
+.tr-hover:hover {
+  background: #cdcdf5;
+  transition: 0.3s;
+}
+

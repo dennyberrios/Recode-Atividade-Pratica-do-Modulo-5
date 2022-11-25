@@ -1,0 +1,157 @@
+.boxContainer {
+  width: 100%;
+}
+.s {
+ max-width: 50%;
+}
+.max {
+  margin: 10px 0 50px 0;
+}
+.textColor {
+  color: #191970;
+}
+.ColorTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 5px;
+}
+.ColorTitle > div {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.btnEnd {
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(23, 19, 19, 0.404);
+}
+.ColorTitle > div > .titleList {
+  color: black;
+  list-style: none;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-sakura {
+  background: var(--color2);
+  
+}
+
+.table { 
+  max-width: 50%; 
+}
+
+.table-colors {
+
+  color: var(--color1);
+}
+
+.tr-hover:hover {
+  background: #cdcdf5;
+  transition: 0.3s;
+}
+
+.btnList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
+}
+
+.BtWidth {
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #046ee5;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  width: 150px;
+}
+
+@media (max-width:320px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100px;
+  }
+  .max {
+    width: 90%;
+  }
+}
+@media (min-width:320px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100px;
+  }
+  .max {
+    width: 100%;
+  }
+}
+@media (min-width:480px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 150px;
+  }
+  .max {
+    width: 100%;
+  }
+}
+@media (min-width:600px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 150px;
+  }
+  .max {
+    width: 80%;
+  }
+}
+@media (min-width:801px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 150px;
+  }
+  .max {
+    width: 70%;
+  }
+}
+@media (min-width:1025px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 150px;
+  }
+  .max {
+    width: 60%;
+  }
+}
+@media (min-width:1281px) {
+  .BtWidth {
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 150px;
+  }
+  .max {
+    width: 60%;
+  }
+}
