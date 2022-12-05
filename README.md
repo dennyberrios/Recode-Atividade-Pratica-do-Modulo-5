@@ -11,6 +11,12 @@
 
 https://www.youtube.com/watch?v=fGyLyWOsn6w
 
+## Link do deploy da atividade
+
+https://lifestyle.vercel.app/
+
+* **OBS: O SGBD deve ser rodado localmente.**
+
 ## Requisitos para uso
 
 ## Instalação / Installation
