@@ -9,7 +9,7 @@
 
 ## Link do funcionamento da atividade
 
-https://youtu.be/raoHDXvuXHg
+https://www.youtube.com/watch?v=fGyLyWOsn6w
 
 ## Requisitos para uso
 
