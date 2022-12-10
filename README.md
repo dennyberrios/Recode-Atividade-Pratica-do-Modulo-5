@@ -40,5 +40,5 @@ https://lifestyle.vercel.app/
 
 ☑️ 2º Somente intsale o javax.servlet-3.0 se necessário, pois caso o eclipse já reconheça automaticamente, fazer a instalação novamente gera conflito;
 
-☑️ 3º Só haverá conteúdo na lista de Clientes,  Destinos e Hospedagens quando houver cliente cadastrado, caso contrario a lista sera mostrada embranco tendo apenas o cabeçalho de navegação e as listas em branco.
+☑️ 3º Só haverá conteúdo na lista de Clientes,  Destinos e Hospedagens quando houver cliente cadastrado, caso contrario a lista sera mostrada embranco tendo apenas o cabeçalho de navegação.
 
